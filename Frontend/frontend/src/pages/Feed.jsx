@@ -11,7 +11,7 @@ const Feed = () => {
         }
     ])
      useEffect(() => {
-    axios.get("http://localhost:3000/posts")
+    axios.get("https://create-post-z6oa.onrender.com/posts")
         .then((response) => {
             setPosts(response.data.posts);
         })
